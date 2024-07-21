@@ -1,0 +1,43 @@
+① 파일 초기세팅
+ - git int
+ - 깃을 본격적으로 사용하기 위해 초기 세팅
+ - 프로젝트 시작 전 딱 한번만 입력하면 됨(여러번 해도 문제는 없음)
+ - 정확한 프로젝트 폴더(경로)에서 입력해야 함(잘못하면 게탑 전체 파일, 폴더가 기록됨)
+ - .git 폴더 생성 : 코드 변경을 추적함
+② 파일 저장 및 메시지
+ - git add 파일 / git add .
+ - git commit –m “메시지”
+ - add로 저장 할 파일을 지정하고, commit으로 저장한다.
+③ 저장 여부 확인
+ - git status
+ - 변경이 있지만 저장(commit)하지 않은 파일은 빨간글씨로 남음
+④ 저장 로그 확인
+ - git log
+ - 저장 내역을 확인하는 명령어
+ - 아래와 같이 출력
+ - 출력 예시
+commit ~~~~~ (HEAD -> master)
+Author: hae <1344141@naver.com>
+Date:   Fri Jul 19 01:27:28 2024 +0900
+ - 18cf4708c623f6e727f931e868dd7b00480315c7 : 커밋 아이디
+⑤ 깃허브에 파일 업로드
+ - git push origin 올릴브랜치
+ - add&commit 후 사용
+ - 디폴트 값으로 지정된 브랜치(기본은 master or main)로 올라감
+⑥ 깃허브 파일 복제하기
+ - git clone 주소 디렉토리
+ - git clone 주소 .   으로 저장하면 현재 디렉토리에 복제됨
+ - git init 후에 사용하면 .은 사용 불가.
+⑦ 깃허브 변경 사항만 가져오기
+ - git pull origin 가져올브랜치
+⑧ 브랜치 생성
+ - git branch 브랜치이름 
+⑨ 브랜치 확인
+ - git branch 
+⑩ 브랜치 이동
+ - git switch 브랜치이름
+ - git checkout 브랜치이름
+ - git switch 권장
+⑪ 브랜치 생성과 이동 동시에 하기
+ - git switch –c 브랜치이름
+ - git checkout –b 브랜치이름
