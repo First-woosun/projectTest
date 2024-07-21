@@ -24,6 +24,7 @@ Date:   Fri Jul 19 01:27:28 2024 +0900
  - git push origin 올릴브랜치
  - add&commit 후 사용
  - 디폴트 값으로 지정된 브랜치(기본은 master or main)로 올라감
+ - 꼭 새로운 브랜치를 만들어야함. main브랜치에서 작업하고 push하면 pull request되지 않고 바로 marge됨!
 ⑥ 깃허브 파일 복제하기
  - git clone 주소 디렉토리
  - git clone 주소 .   으로 저장하면 현재 디렉토리에 복제됨
